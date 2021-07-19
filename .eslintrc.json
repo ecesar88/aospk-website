@@ -16,23 +16,13 @@
       "jsx": true
     }
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "never"
-    ],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "@typescript-eslint/explicit-function-return-type": ["warn"],
+    "@typescript-eslint/no-explicit-any": ["off"],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
@@ -43,32 +33,20 @@
   },
   "overrides": [
     {
-      "files": [
-        "*.ts",
-        "*.tsx"
-      ],
+      "files": ["*.ts", "*.tsx"],
       "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": [
-          "off"
-        ],
-        "@typescript-eslint/no-unused-vars": [
-          "warn"
-        ],
-        "@typescript-eslint/no-explicit-any": [
-          "off"
-        ],
-        "react/prop-types": [
-          "off"
-        ],
-        "react/react-in-jsx-scope": [
-          "off"
-        ],
-        "@typescript-eslint/no-non-null-assertion": [
-          "off"
-        ],
-        "@typescript-eslint/ban-types": "off",
-        "react/display-name": "off"
+        "react/prop-types": ["off"],
+        "react/react-in-jsx-scope": ["off"],
+        "react/display-name": "off",
+        "@typescript-eslint/explicit-module-boundary-types": ["off"],
+        "@typescript-eslint/no-non-null-assertion": ["off"],
+        "@typescript-eslint/ban-types": "off"
       }
     }
-  ]
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
