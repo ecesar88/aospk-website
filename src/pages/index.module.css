@@ -5,6 +5,10 @@
  * and scoped locally.
  */
 
+/* react-slick */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -42,6 +46,3 @@
   align-items: center;
 }
 
-.screenshotCarrousell {
-  display: flex;
-}
