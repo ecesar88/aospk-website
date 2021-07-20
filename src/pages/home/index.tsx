@@ -1,9 +1,8 @@
 import React from 'react'
+import styles from './index.module.css'
 
-const Home = (): JSX.Element => {
-  const _abc = 'asd'
-
-  return <div></div>
+const Home: React.FC = (): JSX.Element => {
+  return <div className={styles.container}>teste heehe</div>
 }
 
 export default Home

@@ -1,0 +1,12 @@
+.OuterNavBarContainer {
+  background-color: white;
+}
+
+.InnerNavBarContainer {
+  background: cadetblue;
+  max-width: var(--max-container-width);
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 15px;
+}

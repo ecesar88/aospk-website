@@ -1,0 +1,7 @@
+.container {
+  background-color: cadetblue;
+  height: 50px;
+  color: white;
+  padding: 15px;
+  display: flex;
+}
