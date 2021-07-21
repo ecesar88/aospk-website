@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# All sources moved to https://github.com/AOSPK/website-wip
+-----------------------------------------------------------
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
